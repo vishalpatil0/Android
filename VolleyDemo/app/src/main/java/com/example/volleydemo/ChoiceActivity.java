@@ -18,7 +18,7 @@ public class ChoiceActivity extends AppCompatActivity {
         arrayObject.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i=new Intent(ChoiceActivity.this,MainActivity.class);
+                Intent i=new Intent(ChoiceActivity.this, JsonObjectRequest.class);
                 startActivity(i);
             }
         });
@@ -26,7 +26,7 @@ public class ChoiceActivity extends AppCompatActivity {
         stringObject.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i=new Intent(ChoiceActivity.this,StringObjectActivity.class);
+                Intent i=new Intent(ChoiceActivity.this, StringRequestActivity.class);
                 startActivity(i);
             }
         });

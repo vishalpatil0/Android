@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.VolleyDemo">
         <activity
-            android:name=".StringObjectActivity"
+            android:name=".StringRequestActivity"
             android:exported="false" />
         <activity
             android:name=".ChoiceActivity"
@@ -24,7 +24,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".JsonObjectRequest"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

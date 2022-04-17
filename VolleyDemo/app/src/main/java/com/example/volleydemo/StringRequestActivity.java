@@ -12,16 +12,14 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 
-import org.w3c.dom.Text;
-
-public class StringObjectActivity extends AppCompatActivity {
+public class StringRequestActivity extends AppCompatActivity {
 
     private TextView textView;
     private String url="https://jsonplaceholder.typicode.com/todos/1";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_string_object);
+        setContentView(R.layout.activity_string_request);
         textView=findViewById(R.id.textview);
         RequestQueue requestQueue;
         requestQueue= Volley.newRequestQueue(getApplicationContext());
